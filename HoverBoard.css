@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 92vh;
+    align-items: center;
+    background-color: #1c1a1a;
+}
+
+table{
+
+    width: 38%;
+    margin: auto;
+}
+
+tr{
+    border-spacing: 3px 3px;
+    border-collapse: separate;
+    padding: 3px;
+}
+td{
+    background-color: #636262de;
+    height: 15px;
+    border-radius: 1.5px;
+    transition: background-color 0.2s ease-in;
+}
